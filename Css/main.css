@@ -1,0 +1,57 @@
+
+body{background-color: #F7ECDE;font-family: 'PT Sans Caption', sans-serif;}
+h1{font-family: 'Pacifico', cursive;font-size: 50px;
+    border-bottom: 2px dotted black;}
+h2{font-family: 'Righteous', sans-serif;font-size: 25px;
+    background-image:linear-gradient(to right,#3ca55c,#b5ac49) ;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+*:not(h1,h2){font-family: 'PT Sans Caption', sans-serif; }
+.button1{border-bottom: 2px dotted black;}
+::selection {
+    background-color: #fec260;
+  }
+
+/* button */
+.btnSub {
+    --bs-btn-color: white;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-border-color: #bb4120;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-color: white;
+    width: 150px;
+}
+
+
+/* form */
+.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    border-color: #bb4120;;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.firstForm{background-color: transparent; border: none;}
+input{height: 40px; border-radius: 5px;  border: 1px solid lightgrey;  -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;}
+input:focus {
+    border-color: #bb4120;
+   box-shadow: 0 0 10px #fec260
+  }
+
+
+.btnVisit {
+    --bs-btn-color: white;
+    --bs-btn-bg: #9EB23B;
+    --bs-btn-border-color: #9EB23B;
+    --bs-btn-hover-border-color: #6e8018;
+    --bs-btn-hover-bg: #6e8018;
+    --bs-btn-hover-color: white;
+}
+
+   
